@@ -19,26 +19,6 @@ before_install:
 
 jobs:
   include:
-    - stage:            Check spelling
-
-      cache:
-        # Ensure pip is cached
-        - pip
-
-      # Set the build language
-      language:         python
-
-      # Set the build language version
-      python:           3.6.6
-
-      install:
-        # Install the required dependency
-        - pip install pyspelling
-
-      script:
-        # Check for spelling errors
-        - pyspelling
-
     - stage:            Generate service worker
 
       cache:
