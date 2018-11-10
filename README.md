@@ -1,4 +1,4 @@
-# Can I Use It?
+# Does It Work?
 
 A website that makes it easy to know what features your browser supports. Makes use of [Modernizr](https://modernizr.com/).
 
