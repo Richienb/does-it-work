@@ -6,7 +6,7 @@ branches:               master
 
 before_install:
     # Configure access token to enable pushing to the repository
-    - git remote set-url origin https://Richienb:${github_token}@github.com/Richienb/ROS-Calculator.git
+    - git remote set-url origin https://Richienb:${github_token}@github.com/Richienb/does-it-work.git
 
     # Set commit username
     - git config --global user.name "ROS Bot"
